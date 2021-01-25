@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact ERAC</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section>           
+        <header>   
+            <h1>EDWARD RAHEEM ALI CRAWFORD</h1>
+        
+            <img src="images/erac_3.jpg" alt="My Face" caption="erac"><br>
+
+                <nav>
+                    <ul>
+                        <li> <a href="resume.html">Resume</a>  </li>
+                        <li><a href="services.html">Services</a>  
+                        <li> <a href="bio.html">Bio</a>   </li>
+                        <li> <a href="http://www.linkedin.com/in/wellnessdesignr" target="_blank">Linkedin</a>  </li>
+                        <li> <a href="http://www.eracarts.com" target="_blank">Artistry</a>   </li>
+                        <li class="nolink"> Contact   </li>
+
+                    </ul>           
+                    
+                </nav> 
+        
+         </header> 
+
+ </section>  
+ <main>
+    <section>
+        <h2>CONTACT ERAC</h3>
+
+    </section>
+
+    <div class="container">
+        <form action="post">
+
+            <input type="text" id="fname" name="firstname" placeholder="First Name - Required Field" maxlength="30" required>
+        
+            <input type="text" id="lname" name="lastname" placeholder="Last Name" maxlength="30">
+
+            <input type="text" id="pnumber" name="number" placeholder="Phone Number" maxlength="12">   
+            
+            <input type="radio" id="mobile" name="phonetype" value="mobile">
+            <label class="radiotext" for="mobile">Mobile</label>
+            <input type="radio" id="landline" name="phonetype" value="landline">
+            <label class="radiotext" for="landline">Landline</label>
+
+            <input type="text" id="email" name="E-Mail" maxlength="50" placeholder="E-mail" maxlength="50"> 
+
+            <label for="how">How did you hear about ERAC?</label>
+                <select id="how" name="how">
+                <option value="searchengine">Search Engine</option>
+                <option value="socialmedia">Social Media</option>
+                <option value="Recruiter">Recruiter</option>
+                </select>
+        
+            <input type="text" id="help" name="help" placeholder="How can I help you?" maxlength="30">
+
+            <label for="skills">Get Specific</label> <br>       
+                <input type="checkbox" id="gd" name="gd" value="graphic design">
+                <label for="vehicle1"> Graphic Design</label><br>
+                <input type="checkbox" id="web" name="vehicle2" value="web design">
+                <label for="web"> Web Design</label><br>
+                <input type="checkbox" id="Hugs" name="vehicle3" value="Hugs">
+                <label for="Hugs"> Hugs</label><br><br>
+
+            <textarea name="message" rows="10" cols="30" placeholder="Talk to Me" maxlength="100"></textarea>
+
+            <input type="text" id="pnumber" name="number" placeholder="Phone Number" maxlength="12"> 
+            
+            <input type="submit" value="Submit">
+        
+
+        </form>
+    </div>    
+
+</main>
+</body>
+</html>

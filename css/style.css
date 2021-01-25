@@ -1,0 +1,157 @@
+body {
+
+    max-width: 800px;
+    margin: auto;
+    font-family: Lato, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  
+}
+
+h1 {
+    font-family: Lato, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    size: 200px;
+    color: dimgrey;
+    text-transform: uppercase;
+   
+}
+h2 {
+    font-family: Lato, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    size: 90px;
+    color: dimgrey;
+}
+
+h3 {
+    font-family: Lato, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    size: 65px;
+    color: dimgrey;
+}
+
+img {
+    max-width: 800px;
+    width: 100%;
+}
+
+p {
+    font-family: Lato, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(0, 0, 0, 0.452);
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+    border-bottom: solid 1px rgb(223, 223, 223);
+    max-width: 780px;
+    margin: 0px;
+
+}
+
+#main {
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(131, 131, 131);
+    
+  }
+  
+  li {
+    font-family: Lato, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float: left;
+    margin: 0px;
+
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(92, 92, 92);
+  }
+
+
+  /*------ job bullets ---------*/
+
+  .job {
+    background-color: rgb(245, 245, 245);
+  }
+
+  .job ul{
+    margin: 0;
+    overflow: hidden;    
+    
+  }
+
+  .job li {
+    font-family: Lato, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(0, 0, 0, 0.452);
+    float: left;
+    padding: 10px;
+    
+  }
+
+.nolink{
+    
+    font-family: Lato, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(175, 175, 175);
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    background-color: rgb(92, 92, 92);
+}
+
+title {
+    
+    display: inline-block;
+    font-family: Lato, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(116, 116, 116);
+    text-align: left;
+    text-decoration: none;
+    padding: 14px 16px;
+  }
+
+/*------ CONTACT PAGE CSS *-------/
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #a1a1a1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #a1a1a1;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .radiotext {
+    color: dimgrey;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
